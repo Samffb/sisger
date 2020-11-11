@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import styles from '../../styles/Dashboard.module.css'
+import styles from '../../../styles/Resource.module.css'
 
-export default function Home() {
+export default function PorfolioIndex() {
   return (
     <div className={styles.container}>
       <Head>
@@ -15,14 +15,10 @@ export default function Home() {
           SISGER
         </div>
         <div class={styles.panel}>
-          <div class={styles.description}>Bem Vindo,</div>
-          <div class={styles.content}>Gabriel Vanderlei de Oliveira</div>
+          <div class={styles.content}>Portfólio</div>
         </div>
         <div class={styles.button}>
-            <div class={styles.buttonElement}>
-              <div class={styles.value}>0</div>
-              <div class={styles.metric}>Pessoas</div>
-            </div>
+            <input type="text" placeholder="Pesquisar" class={styles.searchInput} />
           </div>
 			</main>
     </div>

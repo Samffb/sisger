@@ -1,0 +1,60 @@
+.header{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 15px;
+}
+
+.menuButton{
+    padding: 9px;
+    background-color: rgb(100, 100, 100);
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.panel{
+    background-color: #B8413E;
+    color: white;
+    padding: 50px 50px;
+    height: 200px;
+    font-size: 20px;
+}
+
+.panel .content{
+    font-size: 42px;
+}
+
+.button{
+    padding: 0 45px;
+    position: absolute;
+    margin-top: -55px;
+    width: 100%;
+}
+
+.buttonElement{
+    background-color: white;
+    box-shadow: 0 0 7px rgba(0,0,0,0.3);
+    padding: 35px;
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+}
+
+.buttonElement .value{
+    font-size: 60px;
+}
+
+.buttonElement .metric{
+    font-size: 18px;
+}
+
+.searchInput{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.3);
+    border: 1px solid rgb(240, 240, 240);
+    width: 80%;
+    border-radius: 5px;
+    position: absolute;
+    display: block;
+    margin: 30px;
+}
