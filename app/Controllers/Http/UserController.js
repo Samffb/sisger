@@ -41,6 +41,7 @@ class UserController {
 
             // if user doesn't exist, proceeds with saving him in DB
             const user = await User.create(data)
+            console.log(user)
             
             if(user){
                 return await auth.attempt(
