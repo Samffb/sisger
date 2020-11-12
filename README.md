@@ -11,10 +11,13 @@ Sistema de Gerenciamento de Recursos sendo desenvolvido visando resolver demanda
 - Área administrativa
 - Mapa permitindo visualizar Grupos de Trabalho
 
+### Fluxogramas
+Os fluxogramas apresentados foram elaborados com a ferrament
+
 # Time
-Gabriel Oliveira
-Lucas Felix
-Samuel Ferreira
-Sérgio Victor
+- Gabriel Oliveira
+- Lucas Felix
+- Samuel Ferreira
+- Sérgio Victor
 
 
