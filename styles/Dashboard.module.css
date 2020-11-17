@@ -1,14 +1,91 @@
 .header{
     background-color: rgb(50, 50, 50);
+    padding: 30px;
+    display: block;
+    
+}
+/*versão 1.0*/
+.titleHeader{
     color: white;
-    padding: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15pt;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -15px;
 }
 
+.ifpe{
+    color:white;
+    position: absolute;
+    display: flex;
+    margin:0;
+    padding: 0;
+    margin-left: 900px;
+    margin-top: -10px;
+}
 .menuButton{
     padding: 9px;
     background-color: rgb(100, 100, 100);
-    display: inline-block;
-    margin-right: 20px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-top: 15px;
+}
+
+.menuButton:checked ~.barraLateral{
+    transform: translateX(300px);
+}
+
+.menuButton:checked ~.barraLateral nav a .link{
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: .2s   ;
+}
+.icone{
+    cursor: pointer;
+    padding: 20px;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.barraLateral{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    height: 120%;
+    width: 300px;
+    position: absolute ;
+    transition: all .2s linear;
+    left:-300px;
+    margin-top: 30px;
+    
+}
+.optionBarra{
+    width: 100%;
+    position: absolute;
+    top:60px;
+}
+
+.optionBarra a{
+    text-decoration: none;
+    color:white;
+}
+
+.link{
+    background-color: teal;
+    position: block;
+    padding: 20px;
+    transition: all .2s;
+    font-size: 12pt;
+    border-bottom: 2px solid whitesmoke;
+    opacity: 0;
+    margin-top: 100px;
+}
+
+.link:hover{
+    background-color: whitesmoke;
+    color: black;
 }
 
 .panel{
@@ -31,7 +108,7 @@
 .button{
     padding: 0 45px;
     position: absolute;
-    margin-top: -100px;
+    margin-top: -150px;     
 }
 
 .buttonElement{
@@ -39,14 +116,62 @@
     box-shadow: 0 0 7px rgba(0,0,0,0.3);
     padding: 35px;
     border-radius: 4px;
-    width: 200px;
-    text-align: center;
+    width: 230px;
+    text-align: left;
+    display: inline-block;
+    margin: 1.5em;
+    
 }
 
 .buttonElement .value{
     font-size: 60px;
+    text-align: left;
 }
 
 .buttonElement .metric{
     font-size: 18px;
+    
+}
+
+.funcionalidades{
+    position: absolute;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 135px; 
+}
+
+.buttonNew{
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 500px;
+    height: 65px;
+    margin: 10px;
+    padding: 20px; 
+    margin-left: 50px;
+    text-align: center;
+    font-size: 13pt;
+    font-weight: bold;
+    border: 1px solid rgb(240, 240, 240);
+    border-color: transparent;
+    display: flex;
+    transition: all .2s linear;
+    box-shadow:3px 3px 3px 7px rgba(204, 195, 195, 0.37) ;
+}
+
+.buttonNew:hover{
+    color: white;
+    background-color: #b8413e;
+    border-color: transparent;
+    box-shadow:3px 3px 3px 3px rgb(0,0,0,0.3) ;
+}
+
+.title{
+    position: absolute;
+    display: flex;
+    padding-top: 110px;
+    padding-left: 70px;
+    font-size: 15pt;
+    font-weight: bold;
 }

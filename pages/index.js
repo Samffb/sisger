@@ -22,7 +22,11 @@ export default function Home() {
         </div>
         <div className={styles.form}>
           <div className={styles.title}>
-            Entrar
+          <h1> Entrar na Conta</h1>
+          <input className={styles.boxEmail} placeholder='E-mail'></input>
+          <input className={styles.boxPassword} type= 'password'placeholder=' Senha'></input>
+            <button type= 'submit'className = {styles.buttonHome} > Enviar </button>
+            <a className={styles.forgot} href="*colocar link aqui*">Esqueci minha senha</a>
           </div>
         </div>
       </main>

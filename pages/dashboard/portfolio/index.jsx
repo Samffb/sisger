@@ -15,7 +15,7 @@ export default function PorfolioIndex() {
           SISGER
         </div>
         <div class={styles.panel}>
-          <div class={styles.content}>Portfólio</div>
+          <div class={styles.content}>Programas</div>
         </div>
         <div class={styles.button}>
             <input type="text" placeholder="Pesquisar" class={styles.searchInput} />

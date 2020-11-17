@@ -11,19 +11,56 @@ export default function Home() {
     
 			<main className={styles.main}>
 				<div class={styles.header}>
-          <div class={styles.menuButton}>Menu</div>
-          SISGER
+          <div>
+            <input type='checkbox' id='check' class={styles.menuButton}></input>
+            <label className={styles.icone} for='check'><img src="/menu.svg " width='25'height='25'/></label>
+            <div className={styles.barraLateral}>
+              <nav className={styles.optionBarra}>
+                <a href=""><div className={styles.link}>Início</div></a>
+                <a href=""><div className={styles.link}>Recursos</div></a>
+                <a href=""><div className={styles.link}>Indicador</div></a>
+              </nav>
+
+            </div>
+          </div>
+          <div className={styles.titleHeader}>SISGER</div>
+          <div className={styles.ifpe}>Instituto Internacional Despertando Vocações</div>
         </div>
         <div class={styles.panel}>
           <div class={styles.description}>Bem Vindo,</div>
           <div class={styles.content}>Gabriel Vanderlei de Oliveira</div>
         </div>
+
         <div class={styles.button}>
-            <div class={styles.buttonElement}>
+            <div href="url"class={styles.buttonElement}>
               <div class={styles.value}>0</div>
               <div class={styles.metric}>Pessoas</div>
             </div>
+            <div href="url"class={styles.buttonElement}>
+              <div class={styles.value}>0</div>
+              <div class={styles.metric}>Programas</div>
+            </div>
+            <div href="url"class={styles.buttonElement}>
+              <div class={styles.value}>0</div>
+              <div class={styles.metric}>Grupos de Trabalho</div>
+            </div>
+            <div href="url"class={styles.buttonElement}>
+              <div class={styles.value}>0</div>
+              <div class={styles.metric}>Atividades</div>
+            </div>
           </div>
+
+          
+          <div className={styles.title}>Próximo Passo</div>
+          <div className={styles.funcionalidades}> 
+            <div><button href='url' className={styles.buttonNew}>Nova Pessoa</button>
+            <button href='url' className={styles.buttonNew}>Novo Grupo de Trabalho</button></div>
+            <div><button href='url' className={styles.buttonNew}>Novo Programa</button>
+            <button href='url' className={styles.buttonNew}>Nova Atividade</button></div>
+          </div>
+          
+          
+          
 			</main>
     </div>
   )

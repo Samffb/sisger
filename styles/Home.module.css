@@ -21,6 +21,7 @@
 }
 
 .content .title{
+  
   font-weight: bold;
   font-size: 18px;
 }
@@ -43,3 +44,46 @@
   font-weight: bold;
   font-size: 18px;
 }
+
+
+.boxEmail{
+
+  background-color: F5F5F5;
+  border: 2px solid black;
+  border-radius:6px ;
+  width: 354px;
+  height: 55px;
+  padding: 0.5em;
+  margin: 1.5em;
+}
+
+.boxPassword{
+  background-color: F5F5F5;
+  border: 2px solid black ;
+  border-radius:6px ;
+  width: 354px;
+  height: 55px;
+  margin: 1.5em;
+  
+}
+
+.buttonHome{
+  cursor: pointer;
+  color: white;
+  background-color: #B8413E;
+  font-size: 22px;
+  border: 2px solid#B8413E ;
+  border-radius:6px ;
+  width: 354px;
+  height: 55px;
+  margin: 1em;
+}
+
+
+.forgot{
+  text-decoration: underline;
+  color: gray;
+  font-size: 15px;
+  margin: 1.5em;
+}
+
