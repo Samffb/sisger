@@ -62,7 +62,7 @@
     margin-left: 75px;
 }
 
-.newProject{
+.newInstitute{
     padding: 10px;
     margin-left: 75%;
     margin-top: -35px ;
@@ -76,14 +76,14 @@
     border: 1px solid rgb(240, 240, 240,0.3);
 }
 
-.newProject:hover{
+.newInstitute:hover{
     background-color:  rgba(100, 100, 100);
     border: 1px solid rgba(100, 100, 100);
     color: white;
     box-shadow: 3px 3px 3px 3px rgb(0, 0, 0,0.3);
 }
 
-.painelGroup{
+.painelInstitute{
     background-color: white;
     padding: 15px;
     box-shadow: 0 0 7px rgba(0,0,0,0.3);
@@ -97,13 +97,13 @@
     margin-left: 65px ;
 }
 
-.titleGroup{
+.titleInstitute{
     padding:10px;
     font-weight: bold;
     position: absolute;
 }
 
-.subtitleGroup{
+.subtitleInstitute{
     padding:2px;
     margin-left: 7px;
     position: absolute;

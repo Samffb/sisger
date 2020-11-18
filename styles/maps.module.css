@@ -1,0 +1,61 @@
+.header{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 15px;
+}
+
+.menuButton{
+    padding: 9px;
+    background-color: rgb(100, 100, 100);
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.panel{
+    background-color: #B8413E;
+    color: white;
+    padding: 50px 50px;
+    height: 200px;
+    font-size: 20px;
+}
+
+.panel .content{
+    font-size: 42px;
+}
+.buttonElement{
+    background-color: white;
+    box-shadow: 0 0 7px rgba(0,0,0,0.3);
+    padding: 35px;
+    border-radius: 4px;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    margin:1.5em;
+    margin-left: 10%;
+}
+
+.buttonElement .value{
+    font-size: 60px;
+}
+
+.buttonElement .metric{
+    font-size: 18px;
+}
+.dashboard{   
+    margin: 5%;
+    margin-left: 25%;
+    margin-top: -150px; 
+    display: inline-flex;
+    
+}
+
+.dashboard .value{
+    font-size: 60px;
+    text-align: left;
+}
+
+
+.dashboard .metric{
+    font-size: 18px;
+    text-align: left;
+}

@@ -53,10 +53,10 @@ export default function Home() {
           
           <div className={styles.title}>Próximo Passo</div>
           <div className={styles.funcionalidades}> 
-            <div><button href='url' className={styles.buttonNew}>Nova Pessoa</button>
-            <button href='url' className={styles.buttonNew}>Novo Grupo de Trabalho</button></div>
-            <div><button href='url' className={styles.buttonNew}>Novo Programa</button>
-            <button href='url' className={styles.buttonNew}>Nova Atividade</button></div>
+            <div><a href='/dashboard/people/newpeople' className={styles.buttonNew}>Nova Pessoa</a>
+            <a href='/dashboard/group/newgroup' className={styles.buttonNew}>Novo Grupo de Trabalho</a></div>
+            <div><a href='/dashboard/portfolio/newportfolio' className={styles.buttonNew}>Novo Programa</a>
+            <a href='dashboard/institute/newinstitute' className={styles.buttonNew}>Nova Atividade</a></div>
           </div>
           
           

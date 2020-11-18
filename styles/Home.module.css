@@ -43,11 +43,13 @@
 .form .title{
   font-weight: bold;
   font-size: 18px;
+  margin-left: 20px;
 }
-
-
+.enter{
+  margin-left:22px;
+  font-size: 18pt;
+}
 .boxEmail{
-
   background-color: F5F5F5;
   border: 2px solid black;
   border-radius:6px ;
@@ -55,6 +57,8 @@
   height: 55px;
   padding: 0.5em;
   margin: 1.5em;
+  font-size: 12pt;
+  font-weight: bold;
 }
 
 .boxPassword{
@@ -64,7 +68,9 @@
   width: 354px;
   height: 55px;
   margin: 1.5em;
-  
+  font-size: 12pt;
+  font-weight: bold;
+  margin-top: -40px;
 }
 
 .buttonHome{
@@ -77,6 +83,17 @@
   width: 354px;
   height: 55px;
   margin: 1em;
+  margin-top: -40px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0 ,0, 0.3);
+  transition: all .2s;
+}
+
+.buttonHome:hover{
+  background-color: rgb(155, 221, 155);
+  color: black;
+  font-weight: bold;
+  border: 2px solid rgb(155, 221, 155);
+
 }
 
 
